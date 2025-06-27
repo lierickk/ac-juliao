@@ -1,0 +1,68 @@
+.Contato {
+    background: linear-gradient(135deg, #000000, #1e1e2f);
+    color: #f1f5f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.Contato h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #FFFF00  ;
+}   
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-color: #FFFF00;
+    background-color: #1e1e2f;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.contact-form label {
+    font-size: 1rem;
+    text-align: left;
+    color: #cbd5e1;
+}   
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #111113;
+    color: #e2e8f0;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: #000000;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    padding: 14px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFF00;
+    color: #180725  ;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #180725;
+}

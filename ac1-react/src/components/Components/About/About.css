@@ -1,0 +1,85 @@
+.sobre-section {
+  background-image: url('/images/esp.png');
+  background-color: #1e1e2f;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+  padding: 60px 20px;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sobre-container h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #FFFF00;
+  letter-spacing: 1px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.about-text {
+  max-width: 600px;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.about-text ul {
+  margin-top: 16px;
+  padding-left: 20px;
+}
+
+.about-text ul li {
+  margin-bottom: 8px;
+}
+
+.about-text a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #FFFF00;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.about-text a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #FFFF00;
+}
+
+.about-photo {
+  width: 280px;
+  border-radius: 50%;
+  border: 3px solid #FFFF00;
+  box-shadow: 0 0 20px #FFFF00;
+  transition: transform 0.3s ease;
+}
+
+.about-photo:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .sobre-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  
+}

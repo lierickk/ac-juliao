@@ -1,0 +1,76 @@
+.secao4 {
+  background: linear-gradient(to right, #000000, #1e1e2f);
+  padding: 60px 20px;
+}
+
+.secao4-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.secao4-div-card {
+  background-color: #3c3e4b;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.secao4-div-card:hover {
+  border-color: #FFFF00;
+  transform: translateY(-5px) scale(1.02);
+  background-color: #000000;
+}
+
+.secao4-div-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.secao4-div-card h3 {
+  font-size: 1.4rem;
+  color: #FFFF00;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.secao4-div-card p {
+  color: #cbd5e1;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+/* Responsivo */
+
+@media (max-width: 900px) {
+  .secao4-div-card {
+    width: 45%;
+    min-width: 240px;
+  }
+}
+
+@media (max-width: 600px) {
+  .secao4-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .secao4-div-card {
+    width: 90%;
+    padding: 20px;
+  }
+}
